@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  background-color: orangered;
+}
+p {
+  border: 1px solid black;
+  padding: 10px;
+}
+.title {
+  background-color: lightgray;
+  margin-right: 5px;
+}
+.container {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: block;
+}
+.id {
+  padding-right: 30px;
+  align-items: left;
+  justify-content: left;
+}
