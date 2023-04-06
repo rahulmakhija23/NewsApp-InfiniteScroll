@@ -8,7 +8,7 @@ export default function App() {
     fetch(`https://jsonplaceholder.typicode.com/photos?_limit=${page}`)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        // console.log(data);
         setData(data);
       });
   };
